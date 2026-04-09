@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-darkBg: #0f111a;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-glassBorder: rgba(255, 255, 255, 0.1);
+  --color-brand: #6366f1;
+}
+
+body {
+  @apply bg-darkBg text-gray-200 antialiased font-sans m-0;
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-glass border border-glassBorder backdrop-blur-md rounded-2xl shadow-xl;
+  }
+}

@@ -1,0 +1,8 @@
+com\aiprojectarchitect\dtos\ProjectRequestDto.class
+com\aiprojectarchitect\repositories\ProjectRepository.class
+com\aiprojectarchitect\models\EffortDistribution.class
+com\aiprojectarchitect\models\Project.class
+com\aiprojectarchitect\controllers\ProjectController.class
+com\aiprojectarchitect\Application.class
+com\aiprojectarchitect\services\AIService.class
+com\aiprojectarchitect\models\SkillDistribution.class
